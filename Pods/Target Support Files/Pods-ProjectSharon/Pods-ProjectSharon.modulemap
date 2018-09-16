@@ -1,0 +1,6 @@
+framework module Pods_ProjectSharon {
+  umbrella header "Pods-ProjectSharon-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F17B723213D6A160025C85E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F17B722213D6A150025C85E /* GoogleService-Info.plist */; };
+		2FAB09F2214A3C7A006D206A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FAB09EF214A3C79006D206A /* Bolts.framework */; };
+		2FAB09F3214A3C7A006D206A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FAB09F0214A3C79006D206A /* FBSDKCoreKit.framework */; };
+		2FAB09F4214A3C7A006D206A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FAB09F1214A3C79006D206A /* FBSDKLoginKit.framework */; };
+		2FCC06EC213FCCC400474C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC06EB213FCCC400474C3B /* Assets.xcassets */; };
+		2FCC06EE213FD49C00474C3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC06ED213FD49C00474C3B /* LoginViewController.swift */; };
+		2FCC06F0213FD52300474C3B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC06EF213FD52300474C3B /* RegisterViewController.swift */; };
+		2FCC06F2213FE02B00474C3B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC06F1213FE02B00474C3B /* MainViewController.swift */; };
+		2FD30D95213BF97F00DBBF58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD30D94213BF97F00DBBF58 /* AppDelegate.swift */; };
+		2FD30D97213BF97F00DBBF58 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD30D96213BF97F00DBBF58 /* WelcomeViewController.swift */; };
+		2FD30D9A213BF97F00DBBF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD30D98213BF97F00DBBF58 /* Main.storyboard */; };
+		2FD30D9D213BF97F00DBBF58 /* ProjectSharon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FD30D9B213BF97F00DBBF58 /* ProjectSharon.xcdatamodeld */; };
+		2FD30DA2213BF98000DBBF58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD30DA0213BF98000DBBF58 /* LaunchScreen.storyboard */; };
+		BDF5597549AC642C5927767D /* Pods_ProjectSharon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B76441A422784AA8D4DBBD /* Pods_ProjectSharon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AC9DA33A12C79D6BBF7227F /* Pods-ProjectSharon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectSharon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectSharon/Pods-ProjectSharon.debug.xcconfig"; sourceTree = "<group>"; };
+		1BB4867A6FF79A29E77F4A81 /* Pods-ProjectSharon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectSharon.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectSharon/Pods-ProjectSharon.release.xcconfig"; sourceTree = "<group>"; };
+		2F17B722213D6A150025C85E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2FAB09EF214A3C79006D206A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2FAB09F0214A3C79006D206A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		2FAB09F1214A3C79006D206A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		2FAB0A06214A40AF006D206A /* ProjectSharon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProjectSharon-Bridging-Header.h"; sourceTree = "<group>"; };
+		2FCC06EB213FCCC400474C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FCC06ED213FD49C00474C3B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2FCC06EF213FD52300474C3B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2FCC06F1213FE02B00474C3B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2FD30D91213BF97F00DBBF58 /* ProjectSharon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectSharon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD30D94213BF97F00DBBF58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FD30D96213BF97F00DBBF58 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		2FD30D99213BF97F00DBBF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FD30D9C213BF97F00DBBF58 /* ProjectSharon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjectSharon.xcdatamodel; sourceTree = "<group>"; };
+		2FD30DA1213BF98000DBBF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FD30DA3213BF98000DBBF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B76441A422784AA8D4DBBD /* Pods_ProjectSharon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectSharon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD30D8E213BF97F00DBBF58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF5597549AC642C5927767D /* Pods_ProjectSharon.framework in Frameworks */,
+				2FAB09F3214A3C7A006D206A /* FBSDKCoreKit.framework in Frameworks */,
+				2FAB09F4214A3C7A006D206A /* FBSDKLoginKit.framework in Frameworks */,
+				2FAB09F2214A3C7A006D206A /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BDDC7C36919DDB4D93376E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AC9DA33A12C79D6BBF7227F /* Pods-ProjectSharon.debug.xcconfig */,
+				1BB4867A6FF79A29E77F4A81 /* Pods-ProjectSharon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2FD30D88213BF97F00DBBF58 = {
+			isa = PBXGroup;
+			children = (
+				2FD30D93213BF97F00DBBF58 /* ProjectSharon */,
+				2FD30D92213BF97F00DBBF58 /* Products */,
+				1BDDC7C36919DDB4D93376E4 /* Pods */,
+				6E33C218F9778C51F3409BD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD30D92213BF97F00DBBF58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD30D91213BF97F00DBBF58 /* ProjectSharon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD30D93213BF97F00DBBF58 /* ProjectSharon */ = {
+			isa = PBXGroup;
+			children = (
+				2FAB09EF214A3C79006D206A /* Bolts.framework */,
+				2FAB09F0214A3C79006D206A /* FBSDKCoreKit.framework */,
+				2FAB09F1214A3C79006D206A /* FBSDKLoginKit.framework */,
+				2FD30D94213BF97F00DBBF58 /* AppDelegate.swift */,
+				2FD30D96213BF97F00DBBF58 /* WelcomeViewController.swift */,
+				2FCC06ED213FD49C00474C3B /* LoginViewController.swift */,
+				2FCC06EF213FD52300474C3B /* RegisterViewController.swift */,
+				2FCC06F1213FE02B00474C3B /* MainViewController.swift */,
+				2FD30D98213BF97F00DBBF58 /* Main.storyboard */,
+				2FD30DA0213BF98000DBBF58 /* LaunchScreen.storyboard */,
+				2FCC06EB213FCCC400474C3B /* Assets.xcassets */,
+				2FD30DA3213BF98000DBBF58 /* Info.plist */,
+				2F17B722213D6A150025C85E /* GoogleService-Info.plist */,
+				2FD30D9B213BF97F00DBBF58 /* ProjectSharon.xcdatamodeld */,
+				2FAB0A06214A40AF006D206A /* ProjectSharon-Bridging-Header.h */,
+			);
+			path = ProjectSharon;
+			sourceTree = "<group>";
+		};
+		6E33C218F9778C51F3409BD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81B76441A422784AA8D4DBBD /* Pods_ProjectSharon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD30D90213BF97F00DBBF58 /* ProjectSharon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD30DA6213BF98000DBBF58 /* Build configuration list for PBXNativeTarget "ProjectSharon" */;
+			buildPhases = (
+				65A2D107A0B8166C2C6BCEA3 /* [CP] Check Pods Manifest.lock */,
+				2FD30D8D213BF97F00DBBF58 /* Sources */,
+				2FD30D8E213BF97F00DBBF58 /* Frameworks */,
+				2FD30D8F213BF97F00DBBF58 /* Resources */,
+				23CEF9F4C01455F63E2CE0A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectSharon;
+			productName = ProjectSharon;
+			productReference = 2FD30D91213BF97F00DBBF58 /* ProjectSharon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD30D89213BF97F00DBBF58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sharon Chetrit";
+				TargetAttributes = {
+					2FD30D90213BF97F00DBBF58 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 2FD30D8C213BF97F00DBBF58 /* Build configuration list for PBXProject "ProjectSharon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FD30D88213BF97F00DBBF58;
+			productRefGroup = 2FD30D92213BF97F00DBBF58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD30D90213BF97F00DBBF58 /* ProjectSharon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD30D8F213BF97F00DBBF58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD30DA2213BF98000DBBF58 /* LaunchScreen.storyboard in Resources */,
+				2F17B723213D6A160025C85E /* GoogleService-Info.plist in Resources */,
+				2FCC06EC213FCCC400474C3B /* Assets.xcassets in Resources */,
+				2FD30D9A213BF97F00DBBF58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23CEF9F4C01455F63E2CE0A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProjectSharon/Pods-ProjectSharon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectSharon/Pods-ProjectSharon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65A2D107A0B8166C2C6BCEA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectSharon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD30D8D213BF97F00DBBF58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCC06EE213FD49C00474C3B /* LoginViewController.swift in Sources */,
+				2FCC06F0213FD52300474C3B /* RegisterViewController.swift in Sources */,
+				2FD30D97213BF97F00DBBF58 /* WelcomeViewController.swift in Sources */,
+				2FCC06F2213FE02B00474C3B /* MainViewController.swift in Sources */,
+				2FD30D9D213BF97F00DBBF58 /* ProjectSharon.xcdatamodeld in Sources */,
+				2FD30D95213BF97F00DBBF58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FD30D98213BF97F00DBBF58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD30D99213BF97F00DBBF58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FD30DA0213BF98000DBBF58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD30DA1213BF98000DBBF58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FD30DA4213BF98000DBBF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FD30DA5213BF98000DBBF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FD30DA7213BF98000DBBF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC9DA33A12C79D6BBF7227F /* Pods-ProjectSharon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7X4HS8M86;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ProjectSharon",
+				);
+				INFOPLIST_FILE = ProjectSharon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "projectsharon-bc208";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProjectSharon/ProjectSharon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FD30DA8213BF98000DBBF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB4867A6FF79A29E77F4A81 /* Pods-ProjectSharon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7X4HS8M86;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ProjectSharon",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ProjectSharonFrameworks",
+				);
+				INFOPLIST_FILE = ProjectSharon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "projectsharon-bc208";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProjectSharon/ProjectSharon-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD30D8C213BF97F00DBBF58 /* Build configuration list for PBXProject "ProjectSharon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD30DA4213BF98000DBBF58 /* Debug */,
+				2FD30DA5213BF98000DBBF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD30DA6213BF98000DBBF58 /* Build configuration list for PBXNativeTarget "ProjectSharon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD30DA7213BF98000DBBF58 /* Debug */,
+				2FD30DA8213BF98000DBBF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FD30D9B213BF97F00DBBF58 /* ProjectSharon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FD30D9C213BF97F00DBBF58 /* ProjectSharon.xcdatamodel */,
+			);
+			currentVersion = 2FD30D9C213BF97F00DBBF58 /* ProjectSharon.xcdatamodel */;
+			path = ProjectSharon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FD30D89213BF97F00DBBF58 /* Project object */;
+}
